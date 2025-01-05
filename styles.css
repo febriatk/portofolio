@@ -273,8 +273,8 @@ ul li a:hover {
 }
 
 .portfolio-image {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 200px;
 }
 
 .portfolio-content {
