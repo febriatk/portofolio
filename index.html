@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Febri's Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav__content">
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#page-top">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Portfolio</a></li>
+          <li><a href="#kontak">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Febri Anggi
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! <br  />
+            I'm Febri, a data analyst with passion in data analysis, data visualization,
+            and data interpretation. I have advanced skills in Excel for data manipulation, 
+            Tableau for creating impactful visualizations, Python for data analysis and automation, 
+            and MySQL for managing and querying databases efficiently
+          </p>
+          <p class="description"> 
+            Feel free to explore my portfolio, where you’ll find a showcase of the projects I've worked on. 
+            If you’d like to collaborate or learn more, don’t hesitate to get in touch! <br  />
+            If you'd like to know more about my professional background, you can download my CV
+            by clicking the button below. I look forward to connecting with you!
+          </p>
+          <div class="cv-buttons">
+            <a href="https://docs.google.com/spreadsheets/d/1r4mkEGK0W5WIF0abvNkR3PbMPCTPHRp_OK-1KockHT0/edit?usp=drive_link" download="Febrian_Ggitk_CV" class="cv-button">
+                Download My CV
+            </a>
+        </div>                 
+        </div>
+        <div class="image">
+          <img src="E:\Febri's Work\DSC_7300.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="project" class="portfolio-section">
+      <div class="portfolio-container">
+        <h1 class="section-title">Portfolio</h1>
+
+        <div class="portfolio-menu">
+          <button class="menu-btn active" data-category="all">All</button>
+          <button class="menu-btn" data-category="web-development">Web Development</button>
+          <button class="menu-btn" data-category="web-design">Web Design</button>
+          <button class="menu-btn" data-category="applications">Applications</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <a href="https://colab.research.google.com/drive/1BALUl-6vpGoSSzFFhDfz_BgioZePgCJt" target="_blank" class="portfolio-card" data-category="web-development">
+            <img src="assets/finance.jpg" alt="Finance" class="portfolio-image" />
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">Finance</h3>
+              <p class="portfolio-category">Web Development</p>
+            </div>
+          </a>
+
+          <a href="https://colab.research.google.com/drive/1BALUl-6vpGoSSzFFhDfz_BgioZePgCJt" target="_blank" class="portfolio-card" data-category="web-development">
+            <img src="assets/orizon.jpg" alt="Orizon" class="portfolio-image" />
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">Orizon</h3>
+              <p class="portfolio-category">Web Development</p>
+            </div>
+          </a>   
+          
+          <a href="https://colab.research.google.com/drive/1BALUl-6vpGoSSzFFhDfz_BgioZePgCJt" target="_blank" class="portfolio-card" data-category="web-design">
+            <img src="assets/fundo.jpg" alt="Fundo" class="portfolio-image" />
+            <div class="portfolio-content">
+              <h3 class="portfolio-title">Fundo</h3>
+              <p class="portfolio-category">Web Design</p>
+            </div>
+          </a>
+          
+          <!-- Tambahkan lebih banyak kartu sesuai kebutuhan -->
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="section">
+      <div class="contact-container">
+        <h1 class="section-title">Contact</h1>
+        
+        <p>Feel free to contact me for any question on my social media</p>
+
+        <div class="social-icons">
+          <a href="mailto:febrianggitk@gmail.com" target="_blank" class="social-icon">
+            <i class="fas fa-envelope"></i>
+          </a>   
+          <a href="https://linkedin.com" target="_blank" class="social-icon">
+            <i class="fab fa-linkedin-in"></i> <!-- Font Awesome LinkedIn icon -->
+          </a>
+          <a href="https://instagram.com" target="_blank" class="social-icon">
+            <i class="fab fa-instagram"></i> <!-- Font Awesome Instagram icon -->
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
