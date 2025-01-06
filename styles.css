@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
+  --primary-color: #253c55;
+  --primary-color-dark: #0c141c;
+  --secondary-color: #3e658d;
   --text-dark: #07090c;
   --text-light: #37383b;
-  --extra-light: #FFF0F5;
+  --extra-light: #ebf0f6;
   --max-width: 1200px;
 }
 
@@ -29,7 +29,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #FFB6C1;
+  background-color: #799ec4;
   z-index: 99;
 }
 
@@ -89,7 +89,7 @@ ul li a:hover {
 }
 
 .section {
-  background-color: #fff;
+  background-color: #f6f8fb;
 }
 
 .section__container {
@@ -141,7 +141,7 @@ ul li a:hover {
 }
 
 .cv-button {
-  border: 2px solid #FFB6C1;
+  border: 2px solid #4875a4;
   border-radius: 10px;
   color: var(--text-light);
   padding: 1rem 2rem;
@@ -154,7 +154,7 @@ ul li a:hover {
 }
 
 .cv-button:hover {
-  background-color: #FFB6C1;
+  background-color: #4875a4;
 }
 
 .social-buttons {
@@ -172,7 +172,7 @@ ul li a:hover {
   }
   
   .social-icon:hover {
-    color: #D87093;
+    color: #4d7daf;
   }
   
 
@@ -258,7 +258,7 @@ ul li a:hover {
 }
 
 .portfolio-card {
-  background-color: #ffd1e0;
+  background-color: #b2c7dd;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -311,7 +311,7 @@ ul li a:hover {
   padding: 10px 20px;
   font-size: 1rem;
   color: var(--text-light);
-  background-color: #ffd1e0;
+  background-color: #b2c7dd;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -326,7 +326,7 @@ ul li a:hover {
 
 #contact {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #f6f8fb;
 }
 
 .contact-container {
