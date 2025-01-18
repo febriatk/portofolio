@@ -14,7 +14,7 @@ menuButtons.forEach((btn) => {
 
     // Show/Hide portfolio cards based on the selected category
         portfolioCards.forEach((card) => {
-            const cardCategories = card.getAttribute('data-category').split(' ');
+            const cardCategories = card.getAttribute('data-category').split(" ");
             if (category === 'all' || cardCategories.includes(category)) {
                 card.style.display = 'block'; // Show matching cards
             } else {
